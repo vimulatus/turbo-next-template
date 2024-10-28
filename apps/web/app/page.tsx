@@ -1,9 +1,5 @@
-import { UiTest } from "@repo/ui/ui-test";
+import { Button } from "@repo/ui/button";
 
 export default function Home() {
-	return (
-		<div className="bg-blue-500">
-			Web app <UiTest />
-		</div>
-	);
+	return <Button>Button</Button>;
 }

@@ -1,0 +1,11 @@
+{
+	"name": "@repo/styles",
+	"version": "0.0.0",
+	"private": true,
+	"devDependencies": {
+		"tailwindcss": "^3.4.14"
+	},
+	"dependencies": {
+		"tailwindcss-animate": "^1.0.7"
+	}
+}

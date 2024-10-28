@@ -9,7 +9,9 @@
 		"generate:component": "turbo gen react-component"
 	},
 	"devDependencies": {
-		"@repo/tailwind-config": "*",
+		"@repo/styles": "*",
+		"@repo/utils": "*",
+		"@repo/hooks": "*",
 		"@repo/typescript-config": "*",
 		"@turbo/gen": "^1.12.4",
 		"@types/node": "^20.11.24",
@@ -21,6 +23,8 @@
 		"typescript": "5.5.4"
 	},
 	"dependencies": {
+		"@radix-ui/react-slot": "^1.1.0",
+		"class-variance-authority": "^0.7.0",
 		"react": "^18.2.0"
 	}
 }
